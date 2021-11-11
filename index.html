@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/themes/light.css">
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/shoelace.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Work+Sans:wght@500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>The Climate Crisis</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-left">
+            <div class="music-player">
+                <sl-icon name="volume-mute-fill" id="audio-off" class="audio-btn"></sl-icon>
+                <sl-icon name="volume-up-fill" id="audio-on" class="audio-btn hide"></sl-icon>
+                <audio id="bg-music" src="bg-music.mp3" type="audio/mpeg"></audio>
+            </div>
+            <a href="#"><h2>THE CLIMATE CRISIS</h2></a>
+        </div>
+        <div class="nav-links">
+            <a href="#causes">CAUSES</a>
+            <a href="#effects">EFFECTS</a>
+            <a href="#ways-to-help">WAYS TO HELP</a>
+        </div>
+    </header>
+
+    <div id="header-allowance"></div>
+
+    <div id="opening-section">
+        <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 818"><defs><linearGradient id="linear-gradient" x1="683" y1="11.39" x2="683" y2="504.44" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffe158"/><stop offset="0.16" stop-color="#f8b03b"/><stop offset="0.33" stop-color="#f17d1c"/><stop offset="0.64" stop-color="#f97875"/></linearGradient><radialGradient id="radial-gradient" cx="684" cy="161" r="145" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fffac6"/><stop offset="0" stop-color="#fffecc"/><stop offset="1" stop-color="#fffecc" stop-opacity="0"/></radialGradient></defs><rect id="Sky" width="1366" height="548" style="fill:url(#linear-gradient)"/><g id="background"><path id="back" d="M1366,517s-70.25-93.38-221.34-43.63c-60.49,19.91-97.61,29.19-120.4,33.17H923l-10.49-19.7-6.86,19.7h-5.75L882.3,455.75l-6.7,32.31a99.1,99.1,0,0,0-28-24c-40.84-22.8-137.8-32.13-137.8-32.13L604.62,446.42l-35.86,60.11H414.42l-4.78-26.95-11.23,24.88-9.19-26.95-6.78,29h-8.76l-2.81-11.92-2.34,11.92H361.2L352.85,464l-10,42.49H333.3L330,494.61l-5.62,11.92H307.85L290.2,464l-12.06,42.49H241.19L233,472.33l-7.15,34.2H166.67L122.77,406,82.17,506.54H0V686H1366V517Z" transform="translate(0)" style="fill:#234f56"/></g><g id="midground"><path id="mid" d="M1334.5,479l-19.14-55.61-13.28,56.73a870.61,870.61,0,0,0-136.63,18.48L1160,485l-6.72,16.34q-8.37,1.92-16.86,4l-8.59-26.44-5.26,30q-25.44,6.78-52,15.43l-26.32-45.44-11.78,58.78C972.78,560,868,616.14,793,633,335,736,0,635,0,635v51H1366V488S1365,479,1334.5,479Z" transform="translate(0)" style="fill:#18373a"/></g><path id="foreground" d="M1366,639c-13.46-3.66-29.1-7.58-41.62-10l-5.81-31.53-3.83,29.74q-5.25-.91-10.37-1.71L1292.58,561l-7,61.88c-2.24-.26-4.47-.5-6.67-.73l-12.49-75.93-13.37,74c-3.09-.15-6.13-.26-9.12-.35l-6.36-17L1235,619.73c-3,0-5.85,0-8.7,0l-4.46-30.21-4.38,30.4c-2.34.08-4.65.17-6.9.28l-2.65-17.35-1.77,17.58c-46.73,2.76-73.5,12.36-73.5,12.36s-64.1,22-229.94,36.23L880.5,606.42l-4.62,64.77c-5.37.4-10.82.8-16.38,1.19l-11.12-35.91L834.76,674c-5.68.35-11.42.69-17.29,1-2.45.13-4.89.26-7.32.37l-28-77.94-20.31,78.78c-119.75-1.45-216.88-28.94-279.33-53a247.88,247.88,0,0,1-99.8-71.4V520.93l-12.9,14.93c-3.19-3.74-6.8-7.54-10.78-11.38l-8.95-69-4.37,57.13C290,494,273.08,471.63,149,492,82,503,0,537,0,537V818H1366Z" transform="translate(0)" style="fill:#051a1c"/><g id="left-clouds"><path d="M248.57,125.29c9.83-2.8,21-5.45,29.75-.11,4.43,2.72,7.56,7.19,12,9.93,12.35,7.64,27.87-.83,41-7.1,38.83-18.57,92.06-13.62,116.66,21.7,2.83,4.06,5.43,8.62,9.8,10.95,6.68,3.56,14.77.68,22.06-1.32,11.29-3.09,23.67-3.84,34.45.73s19.4,15.34,18.91,27c-.81,19.28-23.57,29.71-42.84,30.34-28.62.94-57.55-9.65-85.45-3.24-17.79,4.09-33.48,14.81-51.2,19.17-36.41,9-73.37-9.94-110.66-13.94-28.26-3-56.95,2.6-85.17-.78-21.11-2.54-44.6-12.17-56.65-30.6-17-26.05,4.5-31.51,23-46.17,18.15-14.4,24.15-18.74,45.12-7.48C194.36,147.85,221.77,133,248.57,125.29Z" transform="translate(0)" style="fill:#fff;opacity:0.5"/><path d="M300.91,52.25a10.17,10.17,0,0,1,.36,20c-2.5.46-5.07,0-7.61,0-10,0-19.46,7.75-29.12,5.24-2.64-.69-5.06-2.12-7.75-2.61-3.12-.58-6.34.15-9.51-.11-7.66-.63-13.56-6.75-18.69-12.47a6.48,6.48,0,0,1-1.82-3c-2.11-13,30.85-4.41,36.64-5.26,6.41-.94,11.62-6,17.83-6.88C289.3,46,293.54,51.16,300.91,52.25Z" transform="translate(0)" style="fill:#fff;opacity:0.5"/><path d="M533.61,294.21c7.3,1.36,14.49,5.7,17.24,12.6,3.19,8-.57,17.63-7.34,23s-15.87,6.93-24.47,6.36c-7.4-.49-14.7-2.44-22.12-2.39-12.3.1-23.8,5.64-35.62,9-21.44,6.17-95.61-20.7-54.62-43.89,14.38-8.14,34.35-9.91,50-5.24,12.78,3.8,19.41,6.55,33.37,4.67S519.56,291.59,533.61,294.21Z" transform="translate(0)" style="fill:#fff;opacity:0.5"/></g><g id="right-clouds"><path d="M871.76,278.12c5.9,1.71,12.22.53,18.25-.67,10.15-2,20.41-4,30.76-3.83s21,2.78,29.13,9.13a19.41,19.41,0,0,0,4.87,3.24c2.63,1,5.56.46,8.36.13a55.27,55.27,0,0,1,21.37,1.71,17.7,17.7,0,0,1,5.82,2.57c3.4,2.53,5,6.88,5.45,11.09,1.25,10.48-4.64,22.5-15,24.61-8.92,1.82-17.48-3.88-26.4-5.74-22.16-4.65-43.11,14.61-65.74,13.6a14.52,14.52,0,0,1-6.51-1.52c-3.1-1.73-4.88-5.09-7.48-7.5-5.1-4.72-12.67-5.32-19.62-5.55q-17.28-.57-34.58-.24c-17.82.34-37.38.86-51.29-10.27-2.85-2.28-5.52-5.37-5.55-9a11.23,11.23,0,0,1,1.35-5,22.85,22.85,0,0,1,20.39-12.43c7,.11,14.09,3.53,20.9,1.74,7-1.84,11.67-7.92,19.27-8.06,5.51-.1,9.06,2.95,13.92,4.65s7.54,1.14,12.37-.83C859.76,276.71,863.32,275.68,871.76,278.12Z" transform="translate(0)" style="fill:#fff;opacity:0.5"/><path d="M1019.59,108.08A299.54,299.54,0,0,1,1112.69,91c5.5-.13,11-.1,16.51-.07l19,.1c30.88.16,61.76.32,92.64.82,8.81.14,18,.4,25.77,4.5s13.67,13.28,11,21.68c18.72,6.84,38.89,17.82,43.64,37.17,5.15,21-11.5,42.3-31.5,50.58s-42.44,7.06-64.08,6.9c-47.84-.35-95.53,5.09-142.9,11.78-18.88,2.67-37.85,5.54-56.89,4.81-34.63-1.33-67.58-14.44-99.73-27.36-14.15-5.69-31.23-16.89-27-31.54-14.83-4.36-15.47-27.38-4.33-38.11s27.88-12.46,43.28-13.84c42.11-3.77,39.4-3.12,81.1-10.13" transform="translate(0)" style="fill:#fff;opacity:0.5"/></g><g id="sun"><circle cx="684" cy="161" r="145" style="fill:url(#radial-gradient)"/><circle cx="684" cy="161" r="82" style="fill:#fffecc"/></g></svg>
+    <!-- <svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1366 968"><defs><linearGradient id="linear-gradient" x1="683" y1="13.41" x2="683" y2="593.73" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ffe158"/><stop offset="0.16" stop-color="#f8b03b"/><stop offset="0.33" stop-color="#f17d1c"/><stop offset="0.64" stop-color="#f97875"/></linearGradient><radialGradient id="radial-gradient" cx="684" cy="161" r="145" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fffac6"/><stop offset="0" stop-color="#fffecc"/><stop offset="1" stop-color="#fffecc" stop-opacity="0"/></radialGradient></defs><polygon id="Sky" points="1366 636 0 645 0 0 1366 0 1366 636" style="fill:url(#linear-gradient)"/><path id="background" d="M1366,507s-70.25-93.38-221.34-43.63c-60.49,19.91-97.61,29.19-120.4,33.17H923l-10.49-19.7-6.86,19.7h-5.75L882.3,445.75l-6.7,32.31a99.1,99.1,0,0,0-28-24c-40.84-22.8-137.8-32.13-137.8-32.13L604.62,436.42l-35.86,60.11H414.42l-4.78-26.95-11.23,24.88-9.19-26.95-6.78,29h-8.76l-2.81-11.92-2.34,11.92H361.2L352.85,454l-10,42.49H333.3L330,484.61l-5.62,11.92H307.85L290.2,454l-12.06,42.49H241.19L233,462.33l-7.15,34.2H166.67L122.77,396,82.17,496.54H1V689H1366V507Z" transform="translate(0)" style="fill:#234f56"/><path id="midground" d="M1334.5,489l-19.14-55.61-13.28,56.73a870.61,870.61,0,0,0-136.63,18.48L1160,495l-6.72,16.34q-8.37,1.92-16.86,4l-8.59-26.44-5.26,30q-25.44,6.78-52,15.43l-26.32-45.44-11.78,58.78C972.78,570,868,626.14,793,643,335,746,0,645,0,645v82l1366,12V498S1365,489,1334.5,489Z" transform="translate(0)" style="fill:#18373a"/><rect y="728" width="1366" height="40" style="fill:#051a1c"/><path id="foreground" d="M1366,689c-13.46-3.66-29.1-7.58-41.62-10l-5.81-31.53-3.83,29.74q-5.25-.91-10.37-1.71L1292.58,611l-7,61.88c-2.24-.26-4.47-.5-6.67-.73l-12.49-75.93-13.37,74c-3.09-.15-6.13-.26-9.12-.35l-6.36-17L1235,669.73c-3,0-5.85,0-8.7,0l-4.46-30.21-4.38,30.4c-2.34.08-4.65.17-6.9.28l-2.65-17.35-1.77,17.58c-46.73,2.76-73.5,12.36-73.5,12.36s-64.1,22-229.94,36.23L880.5,656.42l-4.62,64.77c-5.37.4-10.82.8-16.38,1.19l-11.12-35.91L834.76,724c-5.68.35-11.42.69-17.29,1-2.45.13-4.89.26-7.32.37l-28-77.94-20.31,78.78c-119.75-1.45-216.88-28.94-279.33-53a247.88,247.88,0,0,1-99.8-71.4V570.93l-12.9,14.93c-3.19-3.74-6.8-7.54-10.78-11.38l-8.95-69-4.37,57.13C293,519,233.22,474.72,107.48,474.9,33,475,0,494,0,494V968H1366Z" transform="translate(0)" style="fill:#051a1c"/><g id="left-clouds"><path d="M223.63,170.14c11-3.13,23.45-6.08,33.17-.12,4.94,3,8.43,8,13.36,11.07,13.78,8.52,31.08-.93,45.69-7.92,43.31-20.7,102.66-15.19,130.09,24.2,3.16,4.53,6.06,9.62,10.94,12.21,7.45,4,16.46.76,24.6-1.47,12.58-3.44,26.39-4.28,38.41.81S541.53,226,541,239.07c-.91,21.49-26.28,33.12-47.78,33.83-31.91,1.05-64.17-10.77-95.29-3.61-19.83,4.56-37.33,16.51-57.09,21.38-40.61,10-81.82-11.09-123.4-15.55-31.52-3.38-63.52,2.9-95-.87-23.54-2.83-49.73-13.57-63.16-34.12-19-29,5-35.14,25.62-51.5,20.24-16,26.93-20.88,50.31-8.34C163.17,195.3,193.74,178.68,223.63,170.14Z" transform="translate(0)" style="fill:#fff;opacity:0.5"/><path d="M282,88.69a11.33,11.33,0,0,1,.4,22.35c-2.79.52-5.65,0-8.48,0-11.13.06-21.7,8.65-32.47,5.85-2.95-.77-5.65-2.36-8.65-2.91-3.48-.65-7.07.17-10.6-.12-8.54-.7-15.12-7.53-20.84-13.91a7,7,0,0,1-2-3.38C197,82,233.72,91.64,240.17,90.7c7.15-1,13-6.68,19.89-7.68C269.05,81.73,273.77,87.48,282,88.69Z" transform="translate(0)" style="fill:#fff;opacity:0.5"/><path d="M541.5,358.51c8.14,1.52,16.15,6.35,19.22,14.05,3.55,8.93-.64,19.67-8.19,25.62s-17.69,7.72-27.28,7.09c-8.26-.55-16.39-2.72-24.67-2.66-13.72.1-26.55,6.28-39.73,10.08C437,419.57,354.24,389.6,400,363.74c16-9.07,38.3-11.05,55.79-5.84,14.26,4.24,21.66,7.31,37.22,5.21S525.83,355.59,541.5,358.51Z" transform="translate(0)" style="fill:#fff;opacity:0.5"/></g><g id="right-clouds"><path d="M863.52,355.7c6.15,1.78,12.71.55,19-.69,10.57-2.1,21.23-4.2,32-4s21.81,2.9,30.31,9.51a20.45,20.45,0,0,0,5.07,3.37c2.74,1,5.79.48,8.7.14a57.2,57.2,0,0,1,22.24,1.78,18.37,18.37,0,0,1,6,2.67c3.53,2.63,5.16,7.15,5.68,11.53,1.29,10.91-4.83,23.42-15.6,25.61-9.28,1.9-18.18-4-27.46-6-23.06-4.83-44.86,15.21-68.4,14.16a15.15,15.15,0,0,1-6.78-1.58c-3.22-1.8-5.07-5.3-7.78-7.81-5.31-4.91-13.19-5.53-20.41-5.77q-18-.6-36-.25c-18.54.35-38.89.9-53.37-10.68-3-2.38-5.73-5.59-5.77-9.39a11.57,11.57,0,0,1,1.41-5.2,23.8,23.8,0,0,1,21.22-12.94c7.32.12,14.66,3.67,21.74,1.81,7.27-1.91,12.15-8.24,20-8.38,5.74-.1,9.43,3.07,14.48,4.83s7.84,1.19,12.88-.86C851,354.23,854.74,353.16,863.52,355.7Z" transform="translate(0)" style="fill:#fff;opacity:0.5"/><path d="M1017.34,178.77A311.91,311.91,0,0,1,1114.21,161c5.72-.13,11.45-.1,17.18-.07l19.8.1c32.13.17,64.27.33,96.4.85,9.16.15,18.7.42,26.81,4.69s14.22,13.82,11.47,22.56c19.48,7.11,40.46,18.54,45.4,38.68,5.36,21.87-12,44-32.77,52.62s-44.16,7.35-66.67,7.18c-49.78-.36-99.41,5.3-148.7,12.26-19.63,2.77-39.38,5.76-59.19,5-36-1.38-70.31-15-103.76-28.47-14.73-5.92-32.5-17.57-28.08-32.81-15.44-4.54-16.1-28.49-4.51-39.65s29-13,45-14.41c43.81-3.92,41-3.24,84.38-10.54" transform="translate(0)" style="fill:#fff;opacity:0.5"/></g><g id="sun"><circle cx="684" cy="161" r="145" style="fill:url(#radial-gradient)"/><circle cx="684" cy="161" r="82" style="fill:#fffecc"/></g></svg> -->
+        <h1 id="title-text">The Climate Crisis</h1>
+    </div>
+
+    <div id="causes" class="section-container">
+        <div class="section">
+            <div class="causes01">
+                <h1>Causes of Climate Change</h1>
+                <h2>What is Climate Change?</h2>
+                <p>Climate change is a change in the usual weather found in a place. 
+                    This could be a change in how much rain a place usually gets in a year. 
+                    Or it could be a change in a place's usual temperature for a month or season. 
+                    Climate change is also a change in Earth's climate. 
+                    This could be a change in Earth's usual temperature. 
+                    Or it could be a change in where rain and snow usually fall on Earth.
+                    Weather can change in just a few hours. 
+                    Climate takes hundreds or even millions of years to change.
+                </p>
+            </div>
+        <div class="causes02">
+            <h2>Human Contribution to Climate Change</h2>
+            <img src="images/human-contribution.jpeg" id="emissions-img"">
+            <p>Human activities (primarily the burning of fossil fuels) have fundamentally increased the concentration of greenhouse gases in Earth’s atmosphere, warming the planet. 
+                Natural drivers, without human intervention, would push our planet toward a cooling period. 
+                Scientists attribute the global warming trend observed since the mid-20th century to the human expansion of the "greenhouse effect."
+            </p>
+            <p>On Earth, human activities are changing the natural greenhouse. 
+                Over the last century the burning of fossil fuels like coal and oil has increased the concentration of atmospheric carbon dioxide (CO2). This happens because the coal or oil burning process combines carbon with oxygen in the air to make CO2. 
+                To a lesser extent, the clearing of land for agriculture, industry, and other human activities has increased concentrations of greenhouse gases.
+            </p>
+        </div>
+        <div class="causes03">
+            <h2>The Greenhouse Effect</h2>
+            <img src="images/greenhouse-effect.jpeg" id="greenhouse-img">
+            <p>The greenhouse effect is the way in which heat is trapped close to Earth's surface by “greenhouse gases.” These heat-trapping gases can be thought of as a blanket wrapped around Earth, keeping the planet toastier than it would be without them. 
+                Greenhouse gases include carbon dioxide, methane, and nitrous oxides.
+            </p>
+            <p>Greenhouse gases occur naturally and are part of our atmosphere's makeup. 
+                For that reason, Earth is sometimes called the “Goldilocks” planet – its conditions are not too hot and not too cold, but just right to allow life (including us) to flourish. 
+                Part of what makes Earth so amenable is its natural greenhouse effect, which keeps the planet at a friendly 15°C (59°F) on average. But in the last century or so, humans have been interfering with the planet's energy balance, mainly through the burning of fossil fuels that add carbon dioxide to the air. 
+                The level of carbon dioxide in Earth’s atmosphere has been rising consistently for decades and traps extra heat near Earth's surface, causing temperatures to rise.
+            </p>
+        </div>
+        </div>
+    </div>
+
+    <div id="effects" class="section-container">
+        <div class="section">
+            <h1>Effects of Climate Change</h1>
+            <div id="effects-text">
+                <div id="text-col-01">
+                    <h2>Melting Ice Caps and Rising Sea Levels</h2>
+                    <p>Global sea level has risen by about 8 inches since reliable record keeping began in 1880. 
+                        It is projected to rise another 1 to 8 feet by 2100. 
+                        This is the result of added water from melting land ice and the expansion of seawater as it warms.
+                    </p>
+                    <p>The Arctic Ocean is expected to become essentially ice free in summer before mid-century.
+                    </p>
+                    <h2>Mass Migration</h2>
+                    <p>As the climate changes parts of our planet will become uninhabitable to people leading to mass migration and displacement of large amounts of people.
+                    </p>
+                    <h2>Extreme Weather</h2>
+                    <p>Climate change is expected to worsen the frequency, intensity, and impacts of some types of extreme weather events. 
+                        For example, sea level rise increases the impacts of coastal storms and warming can place more stress on water supplies during droughts.
+                    </p>
+                </div>
+                <div id="text-col-02">
+                    <h2>Droughts</h2>
+                    <p>Droughts in the Southwest and heat waves (periods of abnormally hot weather lasting days to weeks) everywhere are projected to become more intense, and cold waves less intense everywhere.</p>
+                    <h2>Food Shortages</h2>
+                    <p>Because of increasing droughts and extreme weather land that is suitable for agriculture will become increasingly scarce limiting the amount and type of foods that can be grown causing shortages.</p>
+                    <h2>Endangered Animals</h2>
+                    <p>Sea levels are rising and oceans are becoming warmer. Longer, more intense droughts threaten crops, wildlife and freshwater supplies. From polar bears in the Arctic to marine turtles off the coast of Africa, our planet’s diversity of life is at risk from the changing climate. </p>
+                </div>
+            </div>
+    
+            <div id="gallery">
+                <div id="col-01" class="gal-col">
+                    <a href="images/storms.jpeg" data-fslightbox="gallery">
+                        <img src="images/storms.jpeg" height="200" alt="Storms">
+                    </a>
+                </div>
+                
+                <div id="col-02" class="gal-col"> 
+                    <a href="images/icecaps.jpeg" data-fslightbox="gallery">
+                        <img src="images/icecaps.jpeg" height="200" alt="Melting Icecaps">
+                    </a>
+                    <a href="images/migration.jpeg" data-fslightbox="gallery">
+                        <img src="images/migration.jpeg" height="200" alt="Migration">
+                    </a>
+                </div>
+                
+                <div id="col-03" class="gal-col">
+                    <a href="images/food-shortage.jpeg" data-fslightbox="gallery">
+                        <img src="images/food-shortage.jpeg" height="200" alt="Food shortage">
+                    </a>
+                    <a href="images/koala.jpeg" data-fslightbox="gallery">
+                        <img src="images/koala.jpeg" height="200" alt="koala">
+                    </a>
+                </div>
+                
+                <div id="col-04" class="gal-col">
+                    <a href="images/drought.jpeg" data-fslightbox="gallery">
+                        <img src="images/drought.jpeg" height="200" alt="Drought">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="ways-to-help" class="section-container">
+        <div class="section">
+            <h1>Ways to Help</h1>
+             <div id="dialogs">
+                <sl-dialog label="Reduce Dairy and Meat Consumption" id="dairy-dialog">
+                    Avoiding meat and dairy products is one of the biggest ways to reduce your environmental impact on the planet. Studies suggest that a high-fibre, plant-based diet is also better for your health - so it can be a win-win.
+                    Eat fewer or smaller portions of meat, especially red meat, which has the largest environmental impact, and reduce dairy products or switch them for non-dairy alternatives.
+                    Try to choose fresh, seasonal produce that is grown locally to help reduce the carbon emissions from transportation, preservation and prolonged refrigeration.
+                </sl-dialog>
+                <sl-dialog label="Take Public Transport" id="pub-trans-dialog">
+                    The three most prominent benefits of using Public Transport over single-occupancy vehicles includes the reduction of carbon emissions, air pollution (which results in better air quality) and congestion on roads—including traffic.
+                </sl-dialog>
+                <sl-dialog label="Go Renewable" id="renewable-dialog">
+                    Unlike fossil fuels, such as coal, gas and oil, renewable energy sources are highly unlikely to ever run out, and so are a much more sustainable long-term solution for electricity generation. 
+                    Using renewable energy sources is a great way to reduce our reliance on ever-dwindling supplies of fossil fuels.
+                    </sl-dialog>
+                <sl-dialog label="Reduce, Reuse, Recycle" id="recycle-dialog">
+                    Reduce your consumption of items by avoiding single use items and only purchasing items you need focusing on item quality and even purchasing items second hand.
+                    Repair or reuse items you already own and donate or sell usable items that you don't want.
+                    Materials and items that are recyclable should be put in recycling bins.
+                 </sl-dialog>
+                <sl-dialog label="Speak Out" id="activism-dialog">
+                    Sign and share petitions about climate change and environmentalism to put pressure on polliticians about looking after the environment.
+                    Join protests to make your voice heard and bring attention to climate change and environmentalism.
+                </sl-dialog>
+            </div>
+            
+            <div id="dialog-btns">
+                <div class="img-btn-row">
+                    <div id="dairymeat" class="img-btn">
+                        <img src="images/meat-dairy.png" id="dairy-btn">
+                        <h2>Reduce Dairy and Meat Consumption</h2>
+                    </div>
+                    <div id="pub-trans" class="img-btn">
+                        <img src="images/public-transport.png" id="pub-trans-btn">
+                        <h2>Take Public Transport</h2>
+                    </div>
+                    <div id="renewable" class="img-btn">
+                        <img src="images/renewable-energy.png" id="renewable-btn">
+                        <h2>Go Renewable</h2>
+                    </div>
+                </div>
+                <div class="img-btn-row">
+                    <div id="recycle" class="img-btn">
+                        <img src="images/recycle.png" id="recycle-btn">
+                        <h2>Reduce, Reuse, Recycle</h2>
+                    </div>
+                    <div id="activism" class="img-btn">
+                        <img src="images/activism.png" id="activism-btn">
+                        <h2>Speak Out</h2>
+                    </div>
+                </div>
+            </div>   
+        </div>
+    </div>
+
+    <div id="newsletter" class="section-container">
+        <div class="section">
+            <h1>Sign up for Our Newsletter</h1>
+            <sl-form class="form">
+                <sl-input name="name" type="text" label="Name" required></sl-input>
+                <br>
+                <sl-input type="email" label="Email" placeholder="name@email.com" required></sl-input>
+                <br>
+                <sl-button type="primary" submit>Submit</sl-button>
+            </sl-form>
+        </div>
+    </div>
+
+    <footer class="section-container">
+        <div class="icons">
+            <a target="_blank" href="https://twitter.com/aycc?lang=en">
+                <img src="images/Twitter.png">
+            </a>
+            <a target="_blank" href="https://www.facebook.com/AYCC.org.au/">
+                <img src="images/Facebook.png">
+            </a>
+            <a target="_blank" href="https://www.instagram.com/youth4climatejustice/?hl=en">
+                <img src="images/Instagram.png">
+            </a>
+        </div>
+        <p>Created by Winnie Foss</p>
+    </footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="fslightbox.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

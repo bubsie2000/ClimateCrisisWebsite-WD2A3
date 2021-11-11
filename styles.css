@@ -1,0 +1,296 @@
+* {
+    box-sizing: border-box;
+}
+
+h1, h2, h3, a {
+    font-family: 'Work Sans', sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #051a1c;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 3em;
+    z-index: 1000;
+    background-color:#FFA599;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 3.5vw;
+}
+
+.header-left {
+    display: flex;
+    align-items: center;
+}
+
+sl-icon {
+    font-size: 2.25em;
+    background-color: rgb(255, 255, 242);
+    padding: 2px;
+    color: #FFA599;
+    border-radius: 10px;
+    transition: 0.5s;
+    align-self: center;
+}
+
+sl-icon:hover {
+    background-color: #04ABA2;
+    color: rgb(255, 255, 242);
+    cursor: pointer;
+}
+
+header a {
+    color: rgb(255, 255, 242);
+    text-decoration: none;
+    padding: 0 0.5em;
+    font-weight: 700;
+    font-size: 1.25em;
+    transition: 0.5s;
+}
+
+header h2 {
+    font-size: 1.75em;
+    letter-spacing: 1px;
+    margin-left: 1em;
+}
+
+header a:hover {
+    color: #04ABA2;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight:900;
+    margin-block-start: 0;
+    margin-block-end: 0.4em;
+}
+
+h2 {
+    font-size: 2.5em;
+    font-weight: 800;
+    margin-block: 0.3em;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-weight: 600;
+}
+
+p {
+    font-size: 18px;
+}
+
+#header-allowance {
+    height: 3em;
+}
+
+#opening-section {
+    position: relative;
+}
+
+#opening-section h1{
+    font-size: 6em;
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px 20px rgb(255, 224, 224);
+}
+
+#opening-section h3 {
+    font-size: 1em;
+    position: absolute;
+    top: 60%;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.section-container {
+    padding: 2.5em 6.5vw;
+}
+
+.section {
+    max-width: 850px;
+    margin: auto;
+}
+
+#causes {
+    position: relative;
+}
+
+#causes h1, h2, h3, p {
+    color: rgb(255, 255, 242); 
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#emissions-img {
+    max-width: 600px;
+    height: auto;
+    margin: 1.5em auto;
+    display: block;
+}
+
+#greenhouse-img {
+    max-width: 450px;
+    height: auto;
+    margin: 1.5em auto;
+    display: block;
+}
+
+#effects {
+    background-color: white;
+}
+
+#effects h1 {
+    color: #124B4E;
+}
+
+#effects h2 {
+    color: #04ABA2;
+}
+
+#effects p {
+    color: #051a1c;
+    ;
+}
+
+#effects-text {
+    display: flex;
+}
+
+#text-col-01 {
+    margin-right: 2.5vw;
+}
+
+#gallery {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gal-col img {
+    width: 20vw;
+    height: auto;
+    margin-bottom: 1.5vw;
+}
+
+.gal-col {
+    margin: 0 1vw;
+    width: 20vw;
+}
+
+#ways-to-help {
+    background-color: #04ABA2;
+    color: white;
+}
+
+#ways-to-help h2 {
+    color: white;
+    font-size: 1.75em;
+    margin-top: 1em;
+    font-weight: 700;
+}
+
+#ways-to-help p {
+    color: white;
+    margin-bottom: 2em;
+}
+
+.img-btn-row {
+    display: flex;
+    justify-content: center;
+}
+
+.img-btn {
+    width: 16em;
+    margin: 1vh 1.5vw;
+    text-align: center;
+}
+
+.img-btn img {
+    width: 16em;
+    border-radius: 300px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.img-btn img:hover {
+    background-color: #FFB3A4;
+    animation-name: bounce;
+    animation-duration: 0.7s;
+    animation-timing-function: ease-in-out;
+    cursor: pointer;
+}
+
+sl-dialog::part(panel) {
+    color: #051A1C;
+}
+
+sl-dialog::part(title) {
+    font-family: 'Work Sans', sans-serif;
+    font-weight: 700;
+    font-size: 2em;
+    color: #04ABA2;
+}
+
+@keyframes bounce {
+    0% {transform: translateY(0);}
+    50% {transform: translateY(-1.8vh);}
+    100% {transform: translateY(0);}
+}
+
+#newsletter {
+    background-color: white;
+}
+
+#newsletter h1 {
+    color: #FFC24A;
+}
+
+sl-button::part(base) {
+    background-color: #FF8878;
+    border: none;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+}
+
+footer p {
+    color: white;
+}
+
+.icons img {
+    background-color: #0eb8af;
+    border-radius: 500px;
+    width: 60px;
+    margin: 2vh 10px;
+    transition: 0.4s;
+}
+
+.icons img:hover {
+    background-color: #FFB3A4;
+    cursor: pointer;
+}
+
+.hide {
+    display: none;
+}
