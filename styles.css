@@ -63,6 +63,10 @@ header h2 {
     margin-left: 1em;
 }
 
+header h2:hover {
+    color: #04ABA2;
+}
+
 header a:hover {
     color: #04ABA2;
 }
