@@ -1,5 +1,3 @@
-console.log("JavaScript is working!")
-
 //move the background mountain up 100px 
 gsap.to ('#background',{
     scrollTrigger: {
