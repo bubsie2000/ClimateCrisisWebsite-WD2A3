@@ -82,8 +82,8 @@ blocks.forEach(function(block){
             toggleActions: "play none none none",
         },
         autoAlpha: 0,
-        y: 60,
-        duration: 1
+        y: 75,
+        duration: 0.75
     })
 })
 
