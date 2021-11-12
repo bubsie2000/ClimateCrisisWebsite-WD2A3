@@ -199,9 +199,12 @@ p {
     justify-content: center;
 }
 
+.mobile-col {
+    display: flex;
+}
+
 .gal-col img {
     width: 20vw;
-    height: auto;
     margin-bottom: 1.5vw;
 }
 
@@ -317,7 +320,7 @@ footer a {
 /* For mobile devices (768px wide and narrower) */
 @media only screen and (max-width: 768px){
     #opening-section h1{
-        font-size: 4em;
+        font-size: 8vw;
         position: absolute;
         top: 35%;
         width: 100%;
@@ -326,6 +329,13 @@ footer a {
         text-shadow: 2px 2px 20px rgb(255, 224, 224);
         padding: 0 5vw;
     }
+
+    header h2 {
+        font-size: 4.5vw;
+        letter-spacing: 1px;
+        margin-left: 1em;
+        transition: 0.5s;
+    }    
 
     .nav-links {
         display: none;
@@ -399,6 +409,22 @@ footer a {
         margin-right: 0;
     }
 
+    .mobile-col {
+        display: block;
+    }
+
+    .gal-col, .gal-col img {
+        width: 35vw;
+    }
+
+    .gal-col {
+        margin:0 0.75em;
+    }
+
+    .gal-col img {
+        margin-bottom: 1em;
+    }
+    
     .img-btn-row {
         display: block;
         justify-content: center;
