@@ -453,14 +453,14 @@ footer a {
     }
     
     .img-btn {
-        width: 40vw;
+        width: 50vw;
         margin: auto;
         margin-bottom: 2em;
         text-align: center;
     }
     
     .img-btn img {
-        width: 40vw;
+        width: 50vw;
         border-radius: 300px;
         background-color: white;
         transition: 0.5s;
