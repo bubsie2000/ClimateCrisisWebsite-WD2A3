@@ -132,3 +132,25 @@ audioOn.addEventListener('click', function(){
     //pause bg music
     bgMusic.pause();
 });
+
+//Get mobile navigation buttons, nav menu open button, and nav menu close button
+const mobileNav = document.querySelector('.mobile-nav');
+const openMenuBtn = document.querySelector('.open-menu-btn');
+const closeMenuBtn = document.querySelector('.close-menu-btn');
+
+//Make an array with both mobile menu buttons
+let menuBtns = [openMenuBtn, closeMenuBtn]
+
+//For each mobile menu button
+menuBtns.forEach(function(menuBtn){
+    //When the mobile menu button is clicked
+    menuBtn.addEventListener('click',function(){
+        //For each mobile menu button
+        menuBtns.forEach(function(menuBtn){
+            //Toggle the hide class
+            menuBtn.classList.toggle('hide');
+        })
+        //Toggle the show class on the mobile navigation
+        mobileNav.classList.toggle('show');
+    })
+})
